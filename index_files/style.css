@@ -1,0 +1,74 @@
+html, body { width:100%; height:100%; border:0; margin:0; padding:0;}
+a { color: black !important; }
+body 
+{     
+    font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+ }
+#tableMain 
+{ 
+    background-image: url("img/sun.jpeg");
+    background-color: #F09E64;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+    width: 100%; 
+    border-collapse: collapse;
+}
+#rowMain
+{
+    height:97%;
+}
+#rowFooter
+{
+    height:3%;
+}
+#rowMain #normalizer 
+{ 
+    display: inline-block;
+    text-align: left;
+    width: 285px;
+}
+#logo
+{
+    color: yellow;
+    font-size: 51px;
+    margin-bottom: 28px;
+    margin-top: 101px;
+    text-align: center;
+}
+#slogan
+{
+    text-align:center;
+    color:white;
+}
+#link
+{
+    text-align:center;
+}
+#rowFooter td
+{
+    vertical-align:bottom;
+}
+#rowFooter #normalizer
+{
+    display: inline-block;
+    text-align: center;
+    background-color:white;
+    opacity:0.8;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    padding: 3px 8px;
+    text-align: center;
+}
+#rowFooter #normalizer div
+{
+    display: inline;
+}
+#rowFooter #normalizer a
+{
+    color: black;
+    font-size: 14px;
+}
